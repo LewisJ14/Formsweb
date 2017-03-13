@@ -28,12 +28,10 @@ class _index extends \IPS\Dispatcher\Controller
 	{
 		parent::execute();
         
-		/* You must purchase copyright removal before removing */
-        if( !\IPS\Settings::i()->devfuse_copy_num && !\IPS\Request::i()->isAjax() )
-        {
-            \IPS\Output::i()->output .= "<div style='clear:both;text-align:center;position:absolute;bottom:15px;width:95%;'><a href='http://www.webflake.sx/files' class='ipsType_light ipsType_smaller'>Application by WebFlake</a></div>";    
-        }        
-	}    
+
+		
+		
+		
     
 	/**
 	 * Form Index
