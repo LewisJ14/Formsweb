@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language>
  <app key="form" version="100012">
-  <word key="__app_form" js="0">Forms (webflake.sx)</word>
+  <word key="__app_form" js="0">Forms</word>
   <word key="frontnavigation_form" js="0">Forms</word>
   <word key="module__form_form" js="0">Forms</word>
   <word key="module__form_forms" js="0">Forms</word>
