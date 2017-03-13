@@ -1,0 +1,295 @@
+{
+    "1": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1",
+                "word_default": "Contact Form",
+                "word_custom": "Contact Form",
+                "word_export": 0
+            }
+        ]
+    },
+    "2": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_desc",
+                "word_default": "Contact our forum.",
+                "word_custom": "Contact our forum.",
+                "word_export": 0
+            }
+        ]
+    },
+    "3": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_1",
+                "word_default": "Your Name",
+                "word_custom": "Your Name",
+                "word_export": 0
+            }
+        ]
+    },
+    "4": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_2",
+                "word_default": "Subject",
+                "word_custom": "Subject",
+                "word_export": 0
+            }
+        ]
+    },
+    "5": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_2_desc",
+                "word_default": "Please select what this is about.",
+                "word_custom": "Please select what this is about.",
+                "word_export": 0
+            }
+        ]
+    },
+    "6": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_3",
+                "word_default": "Email Address",
+                "word_custom": "Email Address",
+                "word_export": 0
+            }
+        ]
+    },
+    "7": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_3_desc",
+                "word_default": "Please enter an address we can reply to if needed.",
+                "word_custom": "Please enter an address we can reply to if needed.",
+                "word_export": 0
+            }
+        ]
+    },
+    "8": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "core",
+                "word_key": "form_field_4",
+                "word_default": "Message",
+                "word_custom": "Message",
+                "word_export": 0
+            }
+        ]
+    },
+    "9": {
+        "method": "insert",
+        "params": [
+            "core_permission_index",
+            {
+                "app": "form",
+                "perm_type": "form",
+                "perm_type_id": 1,
+                "perm_view": "*",
+                "perm_2": "*",
+                "perm_3": ""
+            }
+        ]
+    },
+    "10": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_submit_wait",
+                "type": "INT",
+                "length": 5,
+                "null": false,
+                "default": 600
+            }
+        ]
+    },
+    "11": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_bypass_captcha",
+                "type": "TINYINT",
+                "length": 1,
+                "null": false,
+                "default": 0,
+                "unsigned": true
+            }
+        ]
+    },
+    "12": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_view_logs",
+                "type": "TINYINT",
+                "length": 1,
+                "null": false,
+                "default": 0,
+                "unsigned": true
+            }
+        ]
+    },
+    "13": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_moderate_logs",
+                "type": "TINYINT",
+                "length": 1,
+                "null": false,
+                "default": 0,
+                "unsigned": true
+            }
+        ]
+    },
+    "14": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_log",
+                "word_default": "<p>New form submission from <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_custom": "<p>New form submission from <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_export": 0
+            }
+        ]
+    },
+    "15": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_pm_subject",
+                "word_default": "New Form Submission",
+                "word_custom": "New Form Submission",
+                "word_export": 0
+            }
+        ]
+    },
+    "16": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_email_subject",
+                "word_default": "New Form Submission",
+                "word_custom": "New Form Submission",
+                "word_export": 0
+            }
+        ]
+    },
+    "17": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_topic_title",
+                "word_default": "New Form Submission",
+                "word_custom": "New Form Submission",
+                "word_export": 0
+            }
+        ]
+    },
+    "18": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_pm_message",
+                "word_default": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_custom": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_export": 0
+            }
+        ]
+    },
+    "19": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_email_message",
+                "word_default": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_custom": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_export": 0
+            }
+        ]
+    },
+    "20": {
+        "method": "insert",
+        "params": [
+            "core_sys_lang_words",
+            {
+                "lang_id": 1,
+                "word_app": "form",
+                "word_key": "form_form_1_topic_post",
+                "word_default": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_custom": "<p>New form submission has been received. View form {form_url}.<\/p><p>Name: <strong>{member_name}<\/strong><br \/>Email: <strong>{member_email}<\/strong><br \/>Form: <strong>{form_name}<\/strong><\/p><p>{field_list}<\/p>",
+                "word_export": 0
+            }
+        ]
+    },
+    "21": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_can_attach",
+                "type": "TINYINT",
+                "length": 1,
+                "null": false,
+                "default": 0,
+                "unsigned": true                
+            }
+        ]
+    }
+}

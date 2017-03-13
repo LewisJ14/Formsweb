@@ -1,0 +1,14 @@
+{
+    "admin": {
+        "form": {
+            "default_controller": "forms",
+            "protected": 0
+        }
+    },
+    "front": {
+        "forms": {
+            "default_controller": "index",
+            "protected": 0
+        }
+    }
+}

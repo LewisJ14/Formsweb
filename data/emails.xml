@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emails><template><template_app>form</template_app><template_name>emailAlert</template_name><template_content_html><![CDATA[<br />
+
+<table width='100%' cellpadding='15' cellspacing='0' border='0' style='background: #f5f5f5'>
+	<tr>
+		<td>
+			{$email->parseTextForEmail( $message )|raw}
+		</td>
+	</tr>
+</table>
+<br />
+<br />
+<em style='color: #8c8c8c'>&mdash; {setting="board_name"}</em>]]></template_content_html><template_data>$member, $message, $email</template_data><template_content_plaintext>-----
+{expression="\IPS\Email::buildPlaintextBody( $message )"}
+-----
+-- {setting="board_name"}
+</template_content_plaintext></template><template><template_app>form</template_app><template_name>confirmEmail</template_name><template_content_html><![CDATA[<br />
+
+<table width='100%' cellpadding='15' cellspacing='0' border='0' style='background: #f5f5f5'>
+	<tr>
+		<td>
+			{lang="confirm_email_message"}
+		</td>
+	</tr>
+</table>
+<br />
+<br />
+<em style='color: #8c8c8c'>&mdash; {setting="board_name"}</em>]]></template_content_html><template_data>$email</template_data><template_content_plaintext>-----
+{lang="confirm_email_message"}
+-----
+-- {setting="board_name"}
+</template_content_plaintext></template></emails>

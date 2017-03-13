@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javascript app="form">
+ <file javascript_app="form" javascript_location="front" javascript_path="controllers/logs" javascript_name="ips.logs.replyForm.js" javascript_type="controller" javascript_version="100012" javascript_position="1000050">;( function($, _, undefined){
+	&quot;use strict&quot;;
+
+	ips.controller.register('form.front.logs.replyForm', {
+
+		initialize: function () {
+			this.on( 'submit', this.submitForm );
+		},
+
+		/**
+		 * Event handler for submitting the reply form
+		 */
+		submitForm: function (e) {
+			e.preventDefault();
+			this._doReplyAction( this.scope.attr('action'), this.scope.serialize() );
+		},
+
+		/**
+		 * Performs an ajax action.
+		 */
+		_doReplyAction: function (url, data) {
+			var self = this;
+			var dims = ips.utils.position.getElemDims( this.scope.parent('div') );
+
+			// Set it to loading
+			this.scope
+				.hide()
+				.parent('div')
+					.css({
+						width: dims.outerWidth + 'px',
+						height: dims.outerHeight + 'px'
+					})
+					.addClass('ipsLoading');
+ 
+			// Update follow preference via ajax
+			ips.getAjax()( url, {
+				data: data,
+				type: 'post'
+			})
+				.done( function (response) {
+					// Success
+				    self.trigger('closeDialog');
+					ips.ui.flashMsg.show( ips.getString('replySent') ); 
+				})
+				.fail( function (jqXHR, textStatus, errorThrown) {
+					window.location = url;
+				})
+				.always( function () {
+				});
+		}       
+	});
+}(jQuery, _));
+</file>
+</javascript>

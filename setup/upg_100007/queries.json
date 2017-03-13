@@ -1,0 +1,16 @@
+{
+    "1": {
+        "method": "addColumn",
+        "params": [
+            "core_groups",
+            {
+                "name": "g_fs_can_attach",
+                "type": "TINYINT",
+                "length": 1,
+                "null": false,
+                "default": 0,
+                "unsigned": true                
+            }
+        ]
+    }
+}

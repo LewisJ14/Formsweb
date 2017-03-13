@@ -1,0 +1,42 @@
+[
+    {
+        "key": "fm_guest_override",
+        "default": ""
+    },
+    {
+        "key": "fm_legacy_form",
+        "default": "0"
+    },
+    {
+        "key": "fm_log_preview",
+        "default": "5"
+    },
+    {
+        "key": "fm_logs_default_sort_field",
+        "default": "log_date"
+    },
+    {
+        "key": "fm_logs_default_sort_order",
+        "default": "desc"
+    },
+    {
+        "key": "fm_logs_per_page",
+        "default": "20"
+    },
+    {
+        "key": "fm_require_form",
+        "default": "0"
+    },
+    {
+        "key": "fm_system_pms",
+        "default": "1"
+    },
+    {
+        "key": "form_disableContactLink",
+        "default": "0"
+    },
+    {
+        "key": "form_landing_page",
+        "default": "1"
+    }
+]

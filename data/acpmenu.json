@@ -1,0 +1,22 @@
+{
+    "form": {
+        "forms": {
+            "tab": "community",
+            "controller": "forms",
+            "do": "",
+            "restriction": "forms_manage"
+        },
+        "settings": {
+            "tab": "community",
+            "controller": "settings",
+            "do": "",
+            "restriction": "settings_manage"
+        },
+        "permissions": {
+            "tab": "community",
+            "controller": "permissions",
+            "do": "",
+            "restriction": "permissions_manage"
+        }
+    }
+}

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language>
+ <app key="form" version="100012">
+  <word key="__app_form" js="0">Forms (webflake.sx)</word>
+  <word key="frontnavigation_form" js="0">Forms</word>
+  <word key="module__form_form" js="0">Forms</word>
+  <word key="module__form_forms" js="0">Forms</word>
+  <word key="module__forms_logs" js="0">Form Logs</word>
+  <word key="menu__form_form" js="0">Forms</word>
+  <word key="menu__form_form_forms" js="0">Forms</word>
+  <word key="menu__form_form_settings" js="0">Settings</word>
+  <word key="menu__form_form_permissions" js="0">Permissions</word>
+  <word key="module__form_form_add_child" js="0">Add Field</word>
+  <word key="add_form" js="0">Add Form</word>
+  <word key="form_log_pl" js="0">Form Logs</word>
+  <word key="editor__form_Forms" js="0">Forms</word>
+  <word key="form_logs_pl" js="0">Form Logs</word>
+  <word key="__indefart_form_logs" js="0">Log</word>
+  <word key="form_submit" js="0">Submit Form</word>
+  <word key="filestorage__form_Fields" js="0">Form Fields</word>
+  <word key="emailtpl_confirmEmail" js="0">Confirmation Email</word>
+  <word key="emailtpl_emailAlert" js="0">Email Alert</word>
+  <word key="perm_form_perm__label" js="0">Category Permissions</word>
+  <word key="perm_form_perm__view" js="0">See Form</word>
+  <word key="perm_form_perm__add" js="0">Submit Form</word>
+  <word key="perm_form_perm__read" js="0">View Logs</word>
+  <word key="r__forms" js="0">Forms</word>
+  <word key="r__settings" js="0">Settings</word>
+  <word key="r__permissions" js="0">Permissions</word>
+  <word key="r__forms_manage" js="0">Can manage forms?</word>
+  <word key="r__settings_manage" js="0">Can manage settings?</word>
+  <word key="r__permissions_manage" js="0">Can manage permissions?</word>
+  <word key="form_description_placeholder" js="0">Add a description.</word>
+  <word key="form_log_message_placeholder" js="0">Add log message.</word>
+  <word key="form_rules_placeholder" js="0">Any rules for completing this form?</word>
+  <word key="form_settings_tab" js="0">Settings</word>
+  <word key="form_settings_header" js="0">Settings</word>
+  <word key="form_name" js="0">Form Name</word>
+  <word key="form_description" js="0">Description</word>
+  <word key="form_rules" js="0">Form Rules</word>
+  <word key="form_rules_desc" js="0">Add if you have any form rules or instructions.</word>
+  <word key="form_enable_rss" js="0">Enable RSS</word>
+  <word key="form_enable_rss_desc" js="0">Enable RSS feed of this forms logs?</word>
+  <word key="form_attachments" js="0">Enable Attachments</word>
+  <word key="form_enable_qanda" js="0"><![CDATA[Enable Q & A]]></word>
+  <word key="form_enable_qanda_desc" js="0">Do you want to integrate with the registration question and answers challenges?</word>
+  <word key="form_logs_header" js="0">Logs</word>
+  <word key="form_submit_wait" js="0">Submit wait time</word>
+  <word key="form_use_group_perms" js="0">Use Group Permissions</word>
+  <word key="form_submit_wait_desc" js="0">Enter in seconds the time before members can resubmit form. (Leave empty to use group permissions.)</word>
+  <word key="form_log_message" js="0">Log Message</word>
+  <word key="form_confirmation_header" js="0">Confirmation</word>
+  <word key="form_confirm_type" js="0">Confirmation Type</word>
+  <word key="form_confirm_type_desc" js="0">How do you want to confirm new form submissions?</word>
+  <word key="form_confirm_data_url" js="0">Form Confirmation URL</word>
+  <word key="form_confirm_data_url_desc" js="0">Enter the url where members will be redirected.</word>
+  <word key="form_confirm_data_message" js="0">Form Confirmation Message</word>
+  <word key="form_confirm_data_message_desc" js="0">Enter a message to display to members. (Leave empty and standard message will be shown.)</word>
+  <word key="form_confirm_email" js="0">Confirm Email</word>
+  <word key="form_confirm_email_desc" js="0">If you want to send a confirmation email that the form was submitted. Select the custom field that members fill in with their email address. (Leave alone to use members email address.)</word>
+  <word key="form_confirm_email_unlimitedLang" js="0">No confirm email.</word>
+  <word key="form_message" js="0">Message</word>
+  <word key="form_redirect_url" js="0">Redirect URL</word>
+  <word key="form_pm_tab" js="0">Personal Message</word>
+  <word key="form_pm_header" js="0">Personal Message</word>
+  <word key="form_pm_enable" js="0">Send PM?</word>
+  <word key="form_pm_send_own" js="0">Send own pm</word>
+  <word key="form_pm_send_own_desc" js="0">Use form submitter as pm sender.</word>
+  <word key="form_pm_sender" js="0">Sender</word>
+  <word key="form_pm_sender_desc" js="0">Enter the name of the member who will act as the pm sender.</word>
+  <word key="form_pm_receiver" js="0">Receivers</word>
+  <word key="form_pm_receiver_desc" js="0">Enter the names of the members who will receive this pm.</word>
+  <word key="form_pm_subject" js="0">Subject</word>
+  <word key="form_pm_message" js="0">Message</word>
+  <word key="form_pm_message_placeholder" js="0">Add your message.</word>
+  <word key="form_email_tab" js="0">Email</word>
+  <word key="form_email_header" js="0">Email</word>
+  <word key="form_email_enable" js="0">Send Email?</word>
+  <word key="form_email_send_own" js="0">Send own email</word>
+  <word key="form_email_send_own_desc" js="0">Use form submitter as email sender.</word>
+  <word key="form_email_sender" js="0">Sender</word>
+  <word key="form_email_sender_desc" js="0">Enter the name of the member who will act as the email sender.</word>
+  <word key="form_email_receiver" js="0">Receivers</word>
+  <word key="form_email_receiver_desc" js="0">Enter the names of the members who will receive this email.</word>
+  <word key="form_email_subject" js="0">Subject</word>
+  <word key="form_email_message" js="0">Message</word>
+  <word key="form_email_message_placeholder" js="0">Add your message.</word>
+  <word key="form_topic_tab" js="0">Topic</word>
+  <word key="form_topic_header" js="0">Topic</word>
+  <word key="form_topic_enable" js="0">Create Topic?</word>
+  <word key="form_topic_create_own" js="0">Create own topic</word>
+  <word key="form_topic_create_own_desc" js="0">Use form submitter as topic author?</word>
+  <word key="form_topic_redirect" js="0">Redirect to topic?</word>
+  <word key="form_topic_redirect_desc" js="0">Redirect user to topic after submitting form?</word>
+  <word key="form_topic_forum" js="0">Forum</word>
+  <word key="form_topic_forum_desc" js="0">Select which forum this topic will be posted in.</word>
+  <word key="form_topic_author" js="0">Author</word>
+  <word key="form_topic_author_desc" js="0">Enter the name of the member who will act as the topic author.</word>
+  <word key="form_topic_title" js="0">Title</word>
+  <word key="form_topic_post" js="0">Post</word>
+  <word key="form_topic_post_placeholder" js="0">Add your post.</word>
+  <word key="form_submit_wait_seconds" js="0">seconds</word>
+  <word key="form_preview_form" js="0">View Form</word>
+  <word key="form_confirm_pm" js="0">Confirm PM</word>
+  <word key="form_confirm_pm_desc" js="0">Send PM confirmation? Only avaliable to members who submit forms.</word>
+  <word key="form_disable_captcha" js="0">Disable captcha?</word>
+  <word key="form_disable_captcha_desc" js="0">Do you want to disable the captcha for this form?</word>
+  <word key="quick_tags" js="0">Quick Tags</word>
+  <word key="tag_name" js="0">Tag Name</word>
+  <word key="tag_value" js="0">Tag Value</word>
+  <word key="formtag__member_name" js="0">Members Display Name</word>
+  <word key="formtag__member_id" js="0">Members ID</word>
+  <word key="formtag__member_email" js="0">Members Email Address</word>
+  <word key="formtag__member_ip" js="0">Members IP Address</word>
+  <word key="formtag__board_name" js="0">Your Board Name</word>
+  <word key="formtag__board_url" js="0">Your Board URL</word>
+  <word key="formtag__form_id" js="0">Form ID</word>
+  <word key="formtag__form_name" js="0">Form Name</word>
+  <word key="formtag__form_url" js="0">Forms URL</word>
+  <word key="formtag__log_id" js="0">Log ID</word>
+  <word key="formtag__log_url" js="0">Logs URL</word>
+  <word key="formtag__logs_url" js="0">View Logs URL</word>
+  <word key="formtag__field_name_x" js="0"><![CDATA[Selected fields name<br>Replace X with the id of the field you want to display.]]></word>
+  <word key="formtag__field_value_x" js="0"><![CDATA[Selected fields value<br>Replace X with the id of the field you want to display.]]></word>
+  <word key="formtag__field_list" js="0">Formatted list of forms custom fields.</word>
+  <word key="formtag__date" js="0">Current Date</word>
+  <word key="formtag__time" js="0">Current Time</word>
+  <word key="menu_content_form" js="0">Form</word>
+  <word key="menu_content_form_unlimitedLang" js="0">Use forms homepage.</word>
+  <word key="menu_title_form_type" js="0">Title</word>
+  <word key="menu_title_form_inherit" js="0">Use the form name.</word>
+  <word key="menu_title_form_custom" js="0">I will enter a different title.</word>
+  <word key="menu_title_form" js="0">Title</word>
+  <word key="menu_title_form_desc" js="0">You may leave this blank to use the form's title.</word>
+  <word key="settings" js="0">Settings</word>
+  <word key="form_settings" js="0">Form Settings</word>
+  <word key="form_landing_page" js="0">Default landing page</word>
+  <word key="fm_legacy_form" js="0">Enable legacy form?</word>
+  <word key="fm_system_pms" js="0">Send as system PM?</word>
+  <word key="fm_guest_override" js="0">Guest bot override</word>
+  <word key="log_settings" js="0">Log Settings</word>
+  <word key="fm_logs_per_page" js="0">Logs per page</word>
+  <word key="fm_log_preview" js="0">Log preview limit</word>
+  <word key="fm_log_preview_desc" js="0">Limit log preview by number of lines?</word>
+  <word key="fm_logs_default_sort_field" js="0">Log sort field</word>
+  <word key="fm_logs_default_sort_order" js="0">Log sort order</word>
+  <word key="form_landing_page_desc" js="0">Select which form will be the default landing page.</word>
+  <word key="fm_legacy_form_desc" js="0">If enabled, will override above setting and show a dropdown with the forms renamed as subjects.</word>
+  <word key="fm_guest_override_desc" js="0">Enter a member who can send out pm/topic alerts when a form is submitted by a guest.</word>
+  <word key="form_list" js="0">Show list of forms.</word>
+  <word key="disable" js="0">Disable</word>
+  <word key="lines" js="0">lines</word>
+  <word key="sort_log_date" js="0">Log Date</word>
+  <word key="sort_log_form" js="0">Log Form</word>
+  <word key="sort_member_name" js="0">Member Name</word>
+  <word key="sort_desc" js="0">Descending (Z-A)</word>
+  <word key="sort_asc" js="0">Ascending (A-Z</word>
+  <word key="fm_require_form" js="0">Require form url?</word>
+  <word key="fm_require_form_desc" js="0">Enable if you want to disable the central Forms page and give out the form urls directly to members.</word>
+  <word key="form_disableContactLink" js="0">Disable contact link hook?</word>
+  <word key="form_disableContactLink_desc" js="0">Do you want to disable the contact link hook from overriding your 'Contact' link.</word>
+  <word key="group__form_Form" js="0">Forms</word>
+  <word key="forms_permissions" js="0">Form Permissions</word>
+  <word key="g_fs_submit_wait" js="0">Wait before can send again?</word>
+  <word key="g_fs_submit_wait_desc" js="0">How long before member can resubmit a form again?</word>
+  <word key="g_fs_bypass_captcha" js="0">Bypass captcha?</word>
+  <word key="g_fs_view_logs" js="0">Can view form logs?</word>
+  <word key="g_fs_moderate_logs" js="0">Can moderate form logs?</word>
+  <word key="g_fs_submit_wait_unlimitedLang" js="0">Disable</word>
+  <word key="g_fs_submit_wait_seconds" js="0">seconds</word>
+  <word key="g_fs_can_attach" js="0">Can attach to editor fields?</word>
+  <word key="field_value" js="0">Default field value</word>
+  <word key="field_value_desc" js="0">Add the default field value on load.</word>
+  <word key="reply_sender" js="0">Sender</word>
+  <word key="reply_receiver" js="0">Receiver</word>
+  <word key="reply_subject" js="0">Subject</word>
+  <word key="reply_message" js="0">Message</word>
+  <word key="send_reply" js="0">Send Reply</word>
+  <word key="reply_message_placeholder" js="0">Add you reply message here.</word>
+  <word key="re" js="0">Re</word>
+  <word key="quote" js="0">Quote</word>
+  <word key="reply_log_id" js="0">Reply Log ID # </word>
+  <word key="view_log_id" js="0">View Log # </word>
+  <word key="form_message_sent" js="0">Message Sent</word>
+  <word key="message_sent_details" js="0">Thank you, message has been sent.</word>
+  <word key="form_submit_wait_error" js="0">Please wait %s minutes before submitting again.</word>
+  <word key="form_submit_wait_days" js="0"><![CDATA[Please wait %s days, %s hours & %s minutes before submitting again.]]></word>
+  <word key="form_submit_wait_hours" js="0"><![CDATA[Please wait %s hours & %s minutes before submitting again.]]></word>
+  <word key="form_submit_wait_minutes" js="0">Please wait %s minutes before submitting again.</word>
+  <word key="contact_form" js="0">Contact Form</word>
+  <word key="confirm_email_message" js="0">Thank you, your form submission has been received.</word>
+  <word key="mailsub__form_confirmEmail" js="0">Form submission received</word>
+  <word key="form_confirm_pm_message" js="0">Thank you, your form submission has been received.</word>
+  <word key="form_confirm_pm_subject" js="0">Form submission received</word>
+  <word key="form_log_id" js="0">Form Log ID # </word>
+  <word key="logs" js="0">Logs</word>
+  <word key="view_logs" js="0">View Logs</word>
+  <word key="show_forms" js="0">Show Forms</word>
+  <word key="delete" js="0">Delete</word>
+  <word key="reply" js="0">Reply</word>
+  <word key="guest" js="0">Guest</word>
+  <word key="forms" js="0">Forms</word>
+  <word key="form_and" js="0">and</word>
+  <word key="no_view_form" js="0">You can not view this form.</word>
+  <word key="log__save" js="0">Send</word>
+  <word key="form_url_required" js="0">The full form url is required.</word>
+  <word key="form_rules_submitted" js="0">%s Submitted</word>
+  <word key="form_rules_submitted_log" js="0">%s Log</word>
+  <word key="replySent" js="1">Reply has been sent.</word>
+ </app>
+</language>

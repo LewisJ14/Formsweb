@@ -1,0 +1,13 @@
+{
+    "form": {
+        "forms": {
+            "forms_manage": "forms_manage"
+        },
+        "settings": {
+            "settings_manage": "settings_manage"
+        },
+        "permissions": {
+            "permissions_manage": "permissions_manage"
+        }
+    }
+}
