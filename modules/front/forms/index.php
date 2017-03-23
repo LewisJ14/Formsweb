@@ -24,14 +24,8 @@ class _index extends \IPS\Dispatcher\Controller
 	 *
 	 * @return	void
 	 */
-	public function execute()
-	{
-		parent::execute();
-        
 
-		
-		
-		
+       			
     
 	/**
 	 * Form Index
